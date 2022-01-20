@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour
     public float speed = 0;
     public TextMeshProUGUI countText;
     public GameObject winTextObject;
+    public Vector3 minPosition;
+    public Vector3 maxPosition;
 
     private Rigidbody rb;
     private int count;
@@ -53,6 +55,16 @@ public class PlayerController : MonoBehaviour
             other.gameObject.SetActive(false);
             count = count + 1;
             SetCountText();
+        }
+
+        if (other.gameObject.CompareTag("Portal"))
+        {
+            Vector3 randomPosition = new Vector3(
+                Random.Range(-10, 10),
+                1,
+                Random.Range(-10, 10)
+            );
+            transform.position = randomPosition;
         }
     }
 }
