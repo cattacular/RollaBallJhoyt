@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2022-01-20T15:25:11.768-06:00
-  initializedAtString: 2022-01-20T15:25:11.768-06:00
+  lastUpdatedAtString: 2022-01-20T16:15:19.834-06:00
+  initializedAtString: 2022-01-20T16:15:19.834-06:00
   currentGitRemote:
     name: origin
-    url: https://github.com/cattacular/RollaBallJhoyt.git
+    url: https://github.com/cattacular/RollaBallJhoyt
     login: 
     user: 
     host: 
@@ -30,9 +30,9 @@ MonoBehaviour:
     name: main
     remote:
       name: origin
-      url: https://github.com/cattacular/RollaBallJhoyt.git
+      url: https://github.com/cattacular/RollaBallJhoyt
     trackingBranch: main
   currentConfigRemote:
     name: origin
-    url: https://github.com/cattacular/RollaBallJhoyt.git
+    url: https://github.com/cattacular/RollaBallJhoyt
   currentHead: 
